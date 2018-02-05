@@ -1,14 +1,15 @@
 #include <stdio.h>
+
 int main ()
 {
 	int a, b, c, d, e, magg;
 	//variabili
 	printf ("Inserire 5 numeri: \n");
-	scanf ("%d\n", &a);
-        scanf ("%d\n", &b);
-        scanf ("%d\n", &c);
-        scanf ("%d\n", &d);
-        scanf ("%d\n", &e);
+	scanf ("%d", &a);
+        scanf ("%d", &b);
+        scanf ("%d", &c);
+        scanf ("%d", &d);
+        scanf ("%d", &e);
 	//condizioni
 	magg = a;
 	if (b > magg) {
