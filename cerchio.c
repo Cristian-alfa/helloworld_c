@@ -9,7 +9,7 @@ int main ()
 	printf ("inserisci il raggio: ");
 	scanf ("%d", &r);
 	//operazioni
-	c = 2* p * r;
+	c = 2. * p * r;
 	a = p* r* r;
 	//output
 	printf ("La circonferenza del cerchio di raggio %d e': %f\n", r, c);
