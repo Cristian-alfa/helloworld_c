@@ -2,7 +2,7 @@
 int main ()
 {
 	int r;
-	float p, c, a;
+	double p, c, a;
 	//constante
 	p = 3.14;
 	//variabile

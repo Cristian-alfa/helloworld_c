@@ -1,19 +1,18 @@
 #include <stdio.h>
 int main ()
 {
-	int a, b;
+	int a, b, magg;
 	//variabili
 	printf ("Inserisci un numero: ");
 	scanf ("%d", &a);
 	printf ("Inserisci un altro numero: ");
 	scanf ("%d", &b);
 	//condizione
-	if (a > b) {
-		printf ("Il maggiore e': %d\n", a);
-	}
-	else {
-		printf ("Il maggiore e': %d\n", b);
-	}
+	magg = a;
+	if (b > magg) {
+		magg =b;
+		}
+	printf ("Il maggiore e': %d\n", magg); 
 	
 	return 0;
 }
